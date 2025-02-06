@@ -1,1 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Orbitron", serif;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.time {
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(218, 226, 233);
+    border-radius: 1rem;
+}
